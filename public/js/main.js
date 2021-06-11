@@ -134,7 +134,9 @@ monEgal.style.marginLeft = "11%";
 monEgal.style.marginTop = "3%";
 monEgal.style.fontSize = "50px";
 monEgal.textContent = "=";
-
+monEgal.addEventListener("click", () => {
+    monInput.value = Math.round(eval(monInput.value));
+})
 // mes div contenant mes bouttons
 
 
